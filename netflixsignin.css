@@ -1,0 +1,169 @@
+body{
+    background-image: url("95eaf8f43b75d58122081002ebf31d61 (1).jpg");
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.logo{
+    margin-left: 50px;
+    color: red;
+    width: 150px;
+    margin-top: -10px;
+}
+
+.sid{
+    background-color: black;
+    opacity: 85%;
+    width: max-content;
+    margin-left: 500px;
+    padding-top: 50px;
+    padding-bottom: 200px;
+    
+
+    
+}
+
+.sin{
+    color: white;
+    margin-left: 50px;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color:rgb(41, 40, 40);
+    border-radius: 5px;
+    color: white;
+    padding: 1px 17px;
+    font-size: 15px;
+}
+
+.sii{
+    width: 300px;
+    height: 40px;
+    background-color: red;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-top: 20px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.sii:hover{
+    background-color: darkred;
+}
+
+.cbox{
+    width: 15px;
+    background-color:rgb(41, 40, 40);
+    color: white;
+    margin-top: -5px;
+    
+}
+
+.fin{
+    display: flex;
+    font-size: 12px;
+    justify-content: space-between;
+    color: white;
+}
+
+.cb{
+    display: flex;
+    
+}
+
+.rm{
+    margin-top: 8px;
+    margin-left: -45px;
+
+}
+
+.np{
+    margin-top: 8px;
+    margin-right: 50px;
+}
+
+.last{
+    color: rgb(139, 137, 137);
+    font-size: 14px;
+    margin-top: 50px;
+    margin-left: 45px;
+    
+}
+
+.plas{
+    font-size: 12px;
+
+}
+
+.sun{
+    color: white;
+    text-decoration: none;
+}
+
+.sun:hover{
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width: 620px) {
+    .sid{
+        background-color: black;
+        opacity: 85%;
+        width: max-content;
+        margin-left: 13%;
+        
+        padding-top: 30px;
+        padding-bottom: 50px;
+        margin-top: 10%;
+    }
+
+    .logo{
+        margin-left: 20px;
+        color: red;
+        width: 125px;
+        margin-top: -10px;
+    }
+    
+
+
+    input{
+        width: 225px;
+        height: 40px;
+        margin-left: 30px;
+        margin-right: 40px;
+        background-color:rgb(41, 40, 40);
+        border-radius: 5px;
+        color: white;
+        padding: 1px 17px;
+        font-size: 15px;
+    }
+
+
+    .sii{
+        width: 225px;
+        height: 40px;
+        background-color: red;
+        border-radius: 5px;
+        margin-left: 30px;
+        margin-top: 20px;
+        color: white;
+        font-size: 15px;
+        cursor: pointer;
+    
+    }
+
+    .rm{
+        margin-left: -30px;
+    }
+
+    .last{
+
+        margin-left: 10%;
+    
+}
